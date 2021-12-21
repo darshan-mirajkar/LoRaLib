@@ -9,7 +9,7 @@
 // SX127x physical layer properties
 #define SX127X_CRYSTAL_FREQ                           32.0
 #define SX127X_DIV_EXPONENT                           19
-#define SX127X_MAX_PACKET_LENGTH                      255
+#define SX127X_MAX_PACKET_LENGTH                      2048
 #define SX127X_MAX_PACKET_LENGTH_FSK                  64
 
 // SX127x series common LoRa registers
