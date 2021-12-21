@@ -53,7 +53,7 @@ int16_t RFM96::begin(float freq, float bw, uint8_t sf, uint8_t cr, uint8_t syncW
 
 int16_t RFM96::setFrequency(float freq) {
   // check frequency range
-  if((freq < 433.0) || (freq > 470.0)) {
+  if((freq < 433.0) || (freq > 920.0)) {
     return(ERR_INVALID_FREQUENCY);
   }
   
