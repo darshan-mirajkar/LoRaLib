@@ -14,7 +14,7 @@ void Module::init(uint8_t interface, uint8_t gpio) {
     case RADIOLIB_USE_SPI:
       pinMode(_cs, OUTPUT);
       digitalWrite(_cs, HIGH);
-      _spi->begin();
+      _spi->begin(SPI_SCK,SPI_MISO,SPI_MOSI);
       break;
     case RADIOLIB_USE_UART:
       break;
