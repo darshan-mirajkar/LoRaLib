@@ -15,7 +15,9 @@
   // all other architectures
   #define LORALIB_DEFAULT_SPI_CS                      10
 #endif
-
+#define SPI_SCK         26
+#define SPI_MISO        34
+#define SPI_MOSI        25
 /*!
   \class Module
 
